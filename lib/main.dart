@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Weather App Demo',
+      title: 'Weather App',
+      themeMode: themeMode,
+      darkTheme: ThemeData.dark(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
